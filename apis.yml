@@ -1,8 +1,26 @@
 aid: belle-international
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/belle-international.png
 name: Belle International
-description: 'Belle International is a company surfaced as a portfolio company of hillhouse and added
-  to the API Evangelist network as a stub for enrichment. Sector: retail. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Belle International Holdings (百丽国际) is one of China''s largest women''s footwear
+  and fashion retailers, designing, manufacturing, and distributing shoe brands such as Belle, Teenmix,
+  Tata, and Staccato alongside a sportswear-distribution business, across thousands of directly
+  operated retail outlets and a growing e-commerce presence. Formerly listed on the Hong Kong Stock
+  Exchange, the group was taken private in 2017 by a consortium led by Hillhouse Capital and CDH
+  Investments in one of the largest Hong Kong take-private deals. It was surfaced in the API Evangelist
+  network as a portfolio company of Hillhouse; enrichment found no public developer portal, API
+  program, or machine-readable API surface for this consumer-retail company. This remains an identity
+  and domain-security profile rather than an integratable API provider.'
 url: https://raw.githubusercontent.com/api-evangelist/belle-international/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Retail
+- Footwear
+- Fashion
+- Apparel
+- E-Commerce
+- Consumer
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/belle-international-domain-security.yml
 - type: Website
   url: https://www.belle.com.cn
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
